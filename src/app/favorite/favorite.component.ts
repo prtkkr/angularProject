@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FavoriteComponent implements OnInit {
   title1: any;
-  isFavorite!: boolean;
+  //@Input() isFavorite!: boolean;
 
   constructor() { }
 
